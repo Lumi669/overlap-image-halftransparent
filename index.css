@@ -1,0 +1,18 @@
+.layered-image {
+  position: relative;
+}
+.layered-image img {
+  height: 200px;
+  width: 300px;
+}
+.image-overlay {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  opacity: 0.4;
+}
+
+.image-base {
+  transform: rotate(-20deg); /* Equal to rotateZ(45deg) */
+  background-color: pink;
+}
